@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GnomePower.exe" version="2.0.0.0" publicKeyToken="11e41ca22624498c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="hqdefault.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GnomePower" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GnomePower.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ISIanpe3vqJZA+8Wi+eZRLKzrp8+3ZSeiEy78oy+5wc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GnomePower.exe" size="29034968">
+      <assemblyIdentity name="GnomePower" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f22h4xTVkFIVwzr1V02bSX5+yEt9cq4fzciMsqnvD0Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GpV+NxIP3mjZM+CXR0mlD4mwLuk3322SlepmoIujuU8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GnomePower.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jGDacQzBmURtorxX4Gby5k6gGpNSYgA9Eww9c6fPzqU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="hqdefault.ico" size="202814">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nhEmKOXMl6z8jUfqVX1hBNRqxDagiEWilIdrjIoTmnQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-PK-88\super" issuerKeyHash="5d80d4a3849fc1ab6c3dacb9f746d13c971e91cf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>34ix4UMmpnAbOB37SYe22lWplrxSowG9UlEgmKi+xSI=</DigestValue></Reference></SignedInfo><SignatureValue>MBAu8cN925fshQzYPcXOPtKMguLrCmkVkBQ6lEZhcbvIk9KdZE2nMts2pOMQ3/TzHg3fF0SbDYCKYX0iEdk1+ckFJjc2IMsHeS2/2V9C0Q4Rdp04e01FjaOurfVYfH2N25Oo/8b67icrHIlSWgYDC1eI4SckSKSWppm37AipZxM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1mtROAWjef7UR8Wu1tgPkRKLJXngJdn8oDoJJdBaKCBccyxE9sSG5kif8FVf/TT13P9Yl/2NzhNoaEIt5AxRFlnqKIhP0D/1pcAYT1LsdSceDxk8e8gFJjqKq9qDptE7lOMZHJemoUdjDbGWumyDD+NUtBeHzWoWDfWoZwsPrzk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="22c5bea898205152bd01a352bc96a955dab68749fb1d381b70a62643e1b188df" Description="" Url=""><as:assemblyIdentity name="GnomePower.exe" version="2.0.0.0" publicKeyToken="11e41ca22624498c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-PK-88\super</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>htlmFawgILdcMtwj7iIbKz18KR+O/0FOfsz6LiPF05Y=</DigestValue></Reference></SignedInfo><SignatureValue>JCtYQJB6SRGIzBGR+RKqWNN5DTAc6wxYVumgs5KFTdZs2eQqqg+Aqy2U+wuEBRrZ+Svg1TGfFuB6QrAlU0v6RAI0Og1z8I1QMtNPNBoBdqUHCGUVcXijvD6EzHPoTY0Rr+MAY/XxL1l2Ql4hzZ6SHISNJe+lchOlvHFb2/DA/yE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1mtROAWjef7UR8Wu1tgPkRKLJXngJdn8oDoJJdBaKCBccyxE9sSG5kif8FVf/TT13P9Yl/2NzhNoaEIt5AxRFlnqKIhP0D/1pcAYT1LsdSceDxk8e8gFJjqKq9qDptE7lOMZHJemoUdjDbGWumyDD+NUtBeHzWoWDfWoZwsPrzk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQG5skVryZb6hOB47SYCdyczANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABFAFMASwBUAE8AUAAtAFAASwAtADgAOABcAHMAdQBwAGUAcjAeFw0xOTA0MTkyMTEyMDBaFw0yMDA0MTkwMzEyMDBaMDExLzAtBgNVBAMeJgBEAEUAUwBLAFQATwBQAC0AUABLAC0AOAA4AFwAcwB1AHAAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWa1E4BaN5/tRHxa7W2A+REosleeAl2fygOgkl0FooIFxzLET2xIbmSJ/wVV/9NPXc/1iX/Y3OE2hoQi3kDFEWWeooiE/QP/WlwBhPUux1Jx4PGTx7yAUmOoqr2oOm0TuU4xkcl6ahR2MNsZa6bIMP41S0F4fNahYN9ahnCw+vOQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJDa3/Tcy6zeUwkVRan8bu4ULad4lKh7aFZx1n4IA3R/H7KmKtZYvTTvNZw2FEKv85XUrh4MHpQ7TSfOC0BVVP2WZbGJ/TZVM+WE5nz5SDR1f8ZWV5V5bQOoxM6LY4gsC7HhJtLUei4OX/l8NfVACDQZhAgDY5Gy/KHqHDDRFUkI</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
