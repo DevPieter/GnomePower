@@ -1,22 +1,17 @@
 # GnomePower
 
-Made by: SuperPieter
+# This is a cool gnome program!
 
-website: www.superpieter.nl
+## With a lot of gnomes!
 
+### *** lol xD ***
 
-# Dit is een cool gnome programma!
+## Here's some more info!
+### It is made in c#.
+### And when you install it, it is called ***GnomeVirus_lol***.
 
-## Met heel veel gnomes!
-
-### ***lol xD***
-
-## Hier is nog wat meer info!
-### Het is gemaakt in c#.
-### En als je het instaleert heet het ***GnomeVirus_lol***.
-
-[***Download: klik hier!*** ](https://github.com/SuperPieter/Furry-Virus/blob/master/Funny_Virus.zip?raw=true)
+[***Download: click here!***](https://github.com/SuperPieter/Furry-Virus/blob/master/Funny_Virus.zip?raw=true)
 
 
-## Als je het download zegt windows misschien dat het gevaarlijk is maar dat is het **NIET**!
-### Als je het toch niet vertrouwt kun je het hier scannen. https://www.virustotal.com/gui/home/upload
+## If you download it, windows might say it's dangerous but that's **NOT**!
+### If you do not trust it, you can scan it here. https://www.virustotal.com/gui/home/upload
