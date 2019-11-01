@@ -4,8 +4,6 @@
 
 ## With a lot of gnomes!
 
-### *** lol xD ***
-
 ## Here's some more info!
 ### It is made in c#.
 ### And when you install it, it is called ***GnomeVirus_lol***.
