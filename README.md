@@ -12,4 +12,4 @@
 
 
 ## If you download it, windows might say it's dangerous but that's **NOT**!
-### If you do not trust it, you can scan it here. https://www.virustotal.com/gui/home/upload
+### If you don't trust it, you can scan it here. https://www.virustotal.com/gui/home/upload
